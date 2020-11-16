@@ -1,4 +1,2 @@
-package geco;
-
-public class LoginServiceTest {
+package geco;public class LoginServiceTest {
 }
