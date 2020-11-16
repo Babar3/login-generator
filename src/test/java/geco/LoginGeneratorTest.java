@@ -14,10 +14,12 @@ public class LoginGeneratorTest extends TestCase {
     LoginGenerator lg;
     LoginService loginService;
     String prenom1 = "Paul";
-    String prenom2 = "Pierre";
-    String nom1 = "Dupont";
-    String nom2 = "Dupard";
-    String prenom3 = "étienne";
+    String prenom2 = "John";
+    String prenom3 = "Jean";
+    String nom1 = "Durand";
+    String nom2 = "Ralling";
+    String nom3 = "Rolling";
+    String nom4 = "Dùrand";
 
 
     @Before
@@ -31,8 +33,10 @@ public class LoginGeneratorTest extends TestCase {
 
         System.out.println("DEBUT DES TESTS SUR LA GENERATION DE LOGINS\n");
         setUp();
-        assertEquals("Les logins générés ne correspondent pas à ceux attendus", "PDUP", lg.generateLoginForNomAndPrenom(nom1, prenom1));
-
+        assertEquals("Les logins générés ne correspondent pas à ceux attendus", "PDUR", lg.generateLoginForNomAndPrenom(nom1, prenom1));
+        assertEquals("Mauvaise incrémentation logins identiques", "JRAL2", lg.generateLoginForNomAndPrenom(nom2, prenom2));
+        assertEquals("Mauvaise incrémentation 1 logins identiques ", "JROL1", lg.generateLoginForNomAndPrenom(nom3, prenom3));
+        assertEquals("Mauvaise correction des accents ", "PDUR1", lg.generateLoginForNomAndPrenom(nom4, prenom1));
 
 
         System.out.println("FIN DES TESTS SUR LES LOGINS EXISTANTS\n");
