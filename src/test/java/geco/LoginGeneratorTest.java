@@ -37,6 +37,7 @@ public class LoginGeneratorTest extends TestCase {
         assertEquals("Mauvaise incrémentation logins identiques", "JRAL2", lg.generateLoginForNomAndPrenom(nom2, prenom2));
         assertEquals("Mauvaise incrémentation 1 logins identiques ", "JROL1", lg.generateLoginForNomAndPrenom(nom3, prenom3));
         assertEquals("Mauvaise correction des accents ", "PDUR1", lg.generateLoginForNomAndPrenom(nom4, prenom1));
+        assertEquals("Nom court donne lieu à un bug", "PDU", lg.generateLoginForNomAndPrenom("Du", "Paul"));
 
 
         System.out.println("FIN DES TESTS SUR LES LOGINS EXISTANTS\n");
