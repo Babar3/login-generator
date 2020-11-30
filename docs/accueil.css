@@ -1,0 +1,515 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.clearfix{
+  clear:both;
+}
+.header-banner{
+  padding-top:35px;
+  padding-bottom:5px;
+  color:#ffffff;
+  font-family:Helvetica, serif;
+  font-weight:100;
+  background-image:url("https://www.jakpost.travel/wimages/large/184-1847116_grass-field-fonds-cran-campagne.jpg");
+  background-attachment:scroll;
+  background-position:center center;
+  background-repeat:repeat-y, no-repeat;
+  background-size:cover;
+}
+.container-width{
+  width:90%;
+  max-width:1150px;
+  margin:0 auto;
+}
+.menu{
+  float:right;
+  width:50%;
+}
+.menu-item{
+  float:right;
+  font-size:15px;
+  color:black;
+  width:130px;
+  padding:10px;
+  min-height:50px;
+  text-align:center;
+  line-height:30px;
+  font-weight:400;
+  font-size:18px;
+}
+
+.rechercher{
+  float:left;
+  font-size:15px;
+  color:black;
+  width:130px;
+  padding:10px;
+  min-height:50px;
+  text-align:center;
+  line-height:30px;
+  font-weight:400;
+  font-size:18px;
+  display:block;
+
+}
+.search {
+  width: 150px;
+  height:30px;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 150px;
+  height:30px;  border: 2px solid black;
+  border-right: none;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: black;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  background: #9ACD32;
+  text-align: left;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.searchButton .fa-search{
+  margin-top:9px;
+  margin-left:5px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.logo{
+  width: 150px;
+  height: 50px;
+  margin-left:500px;
+  background-image:url("https://ruecbd.com/wp-content/uploads/2018/11/logo-ruecbd.png");
+  background-size:cover;
+  background-position:center center;
+}
+.lead-title{
+  margin:150px 0 30px 0;
+  font-size:40px;
+}
+.flex-sect{
+  background-color:#fafafa;
+  padding:50px 0;
+  font-family:Helvetica, serif;
+  background-image:url("https://wallpaperaccess.com/full/856263.jpg");
+
+}
+.flex-title{
+  margin-bottom:15px;
+  font-size:2em;
+  text-align:center;
+  font-weight:700;
+  font-size:40px;
+  color:#555;
+  padding:5px;
+}
+
+.flex-desc{
+  margin-bottom:30px;
+  font-size:18px;
+  color:rgba(0, 0, 0, 0.5);
+  text-align:center;
+  padding:5px;
+}
+.cards{
+  padding:20px 0;
+  display:flex;
+  justify-content:space-around;
+  flex-flow:wrap;
+}
+.card{
+  background-color:white;
+  height:300px;
+  width:300px;
+  margin-bottom:30px;
+  box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  border-radius:2px;
+  transition:all 0.5s ease;
+  font-weight:100;
+  overflow:hidden;
+  background-color:#9ACD32;
+}
+.card:hover{
+  margin-top:-5px;
+  box-shadow:0 20px 30px 0 rgba(0, 0, 0, 0.2);
+}
+.card-header{
+  height:155px;
+  background-image:url("https://media.cdnws.com/_i/65295/222/1017/24/mango-fleur-cbd-2.jpeg");
+  background-size:cover;
+  background-position:center center;
+}
+.card-header.ch2{
+  background-image:url("https://media.cdnws.com/_i/65295/222/1017/24/mango-fleur-cbd-2.jpeg");
+}
+.card-header.ch3{
+  background-image:url("https://media.cdnws.com/_i/65295/222/1017/24/mango-fleur-cbd-2.jpeg");
+}
+.card-header.ch4{
+  background-image:url("https://media.cdnws.com/_i/65295/222/1017/24/mango-fleur-cbd-2.jpeg");
+}
+.card-header.ch5{
+  background-image:url("https://media.cdnws.com/_i/65295/222/1017/24/mango-fleur-cbd-2.jpeg");
+}
+.card-header.ch6{
+  background-image:url("https://media.cdnws.com/_i/65295/222/1017/24/mango-fleur-cbd-2.jpeg");
+}
+.card-header.ch7{
+  background-image:url("https://media.cdnws.com/_i/65295/m1440-266/2805/68/resine-pollen-marocco-pineapple-cbd-copie.jpeg");
+}
+.card-header.ch8{
+  background-image:url("https://media.cdnws.com/_i/65295/m1440-266/2805/68/resine-pollen-marocco-pineapple-cbd-copie.jpeg");
+}
+.card-header.ch9{
+  background-image:url("https://media.cdnws.com/_i/65295/m1440-266/2805/68/resine-pollen-marocco-pineapple-cbd-copie.jpeg");
+}
+.card-header.ch10{
+  background-image:url("https://media.cdnws.com/_i/65295/m1440-266/2805/68/resine-pollen-marocco-pineapple-cbd-copie.jpeg");
+}
+.card-header.ch11{
+  background-image:url("https://weedy.fr/wp-content/uploads/2020/04/WhatsApp-Image-2020-04-17-at-15.58.07-1.jpeg");
+}
+.card-header.ch12{
+  background-image:url("https://assets.aromes-et-liquides.fr/30510-home_default/e-liquide-cbd-white-window-10ml-par-greeneo.jpg");
+}
+
+
+.card-body{
+  padding:15px 15px 5px 15px;
+  color:#555;
+}
+.card-title{
+  font-size:1.4em;
+  margin-bottom:5px;
+}
+.card-sub-title{
+  color:#b3b3b3;
+  font-size:1em;
+  margin-bottom:15px;
+}
+.card-desc{
+  font-size:0.85rem;
+  line-height:17px;
+}
+.am-sect{
+  padding-top:100px;
+  padding-bottom:350px;
+  width:auto;
+  height:300px;
+  font-family:Helvetica, serif;
+  background-image:url("https://dxkmbl8uwuv9p.cloudfront.net/mielfactory/1523888359350/518f0f4a-8f65-4a3a-8f70-043bfc335c0c/MF-RefonteEShop-PictosReassurance-01+(1).jpg");
+  background-size:cover;
+}
+
+.am-container{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-around;
+}
+.am-content{
+  float:left;
+  padding:7px;
+  width:490px;
+  color:#444;
+  font-weight:100;
+  margin-top:50px;
+}
+.am-pre{
+  padding:7px;
+  color:#b1b1b1;
+  font-size:15px;
+}
+.am-title{
+  padding:7px;
+  font-size:25px;
+  font-weight:400;
+}
+.am-desc{
+  padding:7px;
+  font-size:17px;
+  line-height:25px;
+}
+.am-post{
+  padding:7px;
+  line-height:25px;
+  font-size:13px;
+}
+.blk-sect{
+  padding-top:50px;
+  padding-bottom:50px;
+  background-color:#9ACD32;
+  font-family:"Candara", serif;
+
+}
+.blk-title{
+  color:#000;
+  font-size:25px;
+  text-align:center;
+  margin-bottom:15px;
+  font-weight:bold;
+  text-decoration: underline;
+
+}
+.blk-desc{
+  color:#000;
+  font-size:18px;
+  text-align:center;
+  max-width:1000;
+  margin:0 auto;
+  font-weight:100;
+  margin-bottom:30px;
+  font-weight:bold;
+
+
+}
+.blk-subtitle{
+  color:#000;
+  font-size:20px;
+  text-align:center;
+  margin-bottom:15px;
+  font-weight:bold;
+  text-decoration: underline;
+
+}
+
+.footer-under{
+  background-color:#312833;
+  padding-bottom:100px;
+  padding-top:100px;
+  min-height:500px;
+  color:#eee;
+  position:relative;
+  font-weight:100;
+  font-family:Helvetica,serif;
+}
+.copyright{
+  background-color:rgba(0, 0, 0, 0.15);
+  color:rgba(238, 238, 238, 0.5);
+  bottom:0;
+  padding:1em 0;
+  position:absolute;
+  width:100%;
+  font-size:0.75em;
+}
+
+.footer-social{
+  display:flex;
+  flex-wrap:wrap;
+  font-size:20px;
+}
+
+.footer-desktop{
+  font-size:25px;
+  text-align:center;
+  margin-top:30px;
+  margin-left:250px;
+}
+.fa {
+  padding: 17px;
+  font-size: 30px;
+  height:50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background:#f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color:white;
+}
+.foot-list{
+  float:left;
+  width:200px;
+  margin-right:50px;
+}
+.foot-list-title{
+  font-weight:400;
+  margin-bottom:10px;
+  padding:0.5em 0;
+}
+.foot-list-item{
+  color:rgba(238, 238, 238, 0.8);
+  font-size:0.8em;
+}
+.foot-list-item:hover{
+  color:rgba(238, 238, 238, 1);
+}
+.foot-form-cont{
+  width:300px;
+  float:right;
+}
+.foot-form-title{
+  color:rgba(255,255,255,0.75);
+  font-weight:400;
+  margin-bottom:10px;
+  padding:0.5em 0;
+  text-align:right;
+  font-size:2em;
+}
+.foot-form-desc{
+  font-size:0.8em;
+  color:rgba(255,255,255,0.55);
+  line-height:20px;
+  text-align:right;
+  margin-bottom:15px;
+}
+.sub-input{
+  width:100%;
+  margin-bottom:15px;
+  padding:7px 10px;
+  border-radius:2px;
+  color:#fff;
+  background-color:#554c57;
+  border:none;
+}
+.sub-btn{
+  width:100%;
+  margin:15px 0;
+  background-color:#785580;
+  border:none;
+  color:#fff;
+  border-radius:2px;
+  padding:7px 10px;
+  font-size:1em;
+  cursor:pointer;
+}
+.sub-btn:hover{
+  background-color:#91699a;
+}
+.sub-btn:active{
+  background-color:#573f5c;
+}
+
+#ink73{
+  margin:0 0 30px 0;
+  width:auto;
+  height:200px;
+  float:none;
+  text-align:center;
+  font-size:80px;
+}
+#i9pq{
+  border:0 solid rgb(255, 255, 255);
+  width:1150px;
+  border-radius:1px 1px 0 0;
+}
+#ibltv8{
+  float:left;
+  width:1150px;
+}
+#i072x6{
+  float:left;
+  min-height:150px;
+  max-width:1150px;
+  width:1150px;
+  font-size:80px;
+  border:2px solid;
+  border-color:black;
+  top:auto;
+  line-height:42px;
+
+}
+
+
+#ipzbuf{
+  border-radius:3px 3px 3px 3px;
+  border:0 solid rgb(238, 238, 238);
+}
+#ijqilw{
+  max-width:109px;
+  width:109px;
+  display:block;
+  border-radius:5px 5px 5px 5px;
+  border:0 solid rgb(238, 238, 238);
+}
+#in3v67{
+  border-radius:3px 3px 3px 3px;
+  border:0 solid rgb(238, 238, 238);
+}
+#ijllb7{
+  border-radius:5px 5px 5px 5px;
+  border:0 solid rgb(238, 238, 238);
+}
+#iipx02{
+  border-radius:3px 3px 3px 3px;
+  border:0 solid rgb(238, 238, 238);
+}
+#i47l6v{
+  border-radius:3px 3px 3px 3px;
+  border:0 solid rgb(238, 238, 238);
+}
+#ixp9wq{
+  border-radius:3px 3px 0 3px;
+  border:0 solid rgb(238, 238, 238);
+}
+#i3ml1k{
+  border-radius:3px 3px 3px 3px;
+  border:0 solid rgb(238, 238, 238);
+}
+#ifehwt{
+  border-radius:3px 3px 3px 3px;
+  border:0 solid rgb(238, 238, 238);
+}
+#i1tku1{
+  float:none;
+}
+@media (max-width: 768px){
+  .foot-form-cont{
+    width:400px;
+  }
+  .foot-form-title{
+    width:autopx;
+  }
+}
+@media (max-width: 480px){
+  .foot-lists{
+    display:none;
+  }
+}
